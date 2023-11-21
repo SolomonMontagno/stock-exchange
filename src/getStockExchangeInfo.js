@@ -1,6 +1,6 @@
     
     const apiKey = process.env.alphavantage;
-    const alphaApiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=RIVN&interval=5min&apikey=${apiKey}`
+    const alphaApiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=RIVN&apikey=${apiKey}`;
 
 const getStockExchangeInfo = async () => {
         try {
